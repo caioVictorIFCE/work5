@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+main {
+    width: 100%;
+}
+
+body {
+    display: block;
+}
+
+p {
+    margin: 20px;
+}
+
+h1, p {
+    color: red;
+}
+
+section {
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    border: 2px solid black;
+}
+
+.fig {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#linkagem {
+    color: yellow;
+    background-color: green;
+}
+
+#linkagem:hover {
+    color: blue;
+    background-color: green;
+}
+
+#fix {
+    position: fixed;
+    background-color: purple;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.contitems {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.block {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#back {
+    width: 100px;
+    height: 50px;
+    margin: 10px 20px 25px 30px;
+    background-repeat: repeat;
+    background-image: url("Imagem/Logotipo_Tech_Challenge.jpeg");
+}
+
+.boxsi {
+    border: 5px solid;
+    background-color: beige;
+    width: 100px;
+    padding: 100px;
+}
+
+/*Todos os elementos da questão foram utilizados e presentes no código HTML e CSS */
